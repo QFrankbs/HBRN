@@ -1,0 +1,4 @@
+transformers
+scikit-learn
+openpyxl
+pandas
