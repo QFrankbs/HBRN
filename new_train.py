@@ -66,8 +66,8 @@ def train(net, train_loader, eval_loader, args):
             #print(type(ans),ans.dtype)
             
             loss = loss_fn(pred, ans)
+            loss = loss*0.5 + cl_loss*0.5
             loss.backward()
-
             loss_sum += loss.cpu().data.numpy()
             loss_tmp += loss.cpu().data.numpy()
 
