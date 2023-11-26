@@ -1,1 +1,1 @@
-download processed CMU-MOSEI Dataset from here.
+Store the dataset in MOSEI
